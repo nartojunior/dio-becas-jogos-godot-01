@@ -38,7 +38,7 @@ function printPlayer(){
     console.log(`O Herói de nome **{${pName}}** está no nível de **{${level}}**`);
 }
 
-function TestSetLevel(){
+function testRankPlayer(){
     // guarda o valor de xp antes do teste para poder atribuí-lo novamente no fim do teste
     let tearDownXp = xp
 
@@ -77,5 +77,5 @@ printPlayer()
 
 console.log("mar menino")
 
-TestSetLevel()
+testRankPlayer()
 
