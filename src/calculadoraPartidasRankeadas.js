@@ -48,7 +48,12 @@ function testRankPlayer(){
 
         console.log('Finishing Test... \n')
     });
+
+    console.log(`### Cálculo de Rank de Jogador foi testado! ###`)
 }
+
+
+rankPlayer(100, 30)
 
 console.log("mar menino")
 
